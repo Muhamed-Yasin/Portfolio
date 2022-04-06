@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.navigation{
+    display:flex;
+    justify-content: space-between;
+    background-color: #24252A;
+    align-items: center;
+    padding: 5px 10%;
+    color: #edf0f1;
+    font-size: 16px;
+    color: #edf0f1;
+    list-style: none;
+}
+
+a{
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+a:active{
+    color: #edf0f1;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 68.75rem;
+    margin: auto;
+    
+}
+
+.main img {
+    height: 37.5 rem;
+    width: 37.5 rem;
+}
+
+.main h1{
+    font-size: 64px;   
+}
+
+.main p{
+    font-size: 32px;
+}
+
+.maintext{
+    flex-direction: row;
+    text-align: center;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 0;
+}
+.list h1{
+    font-size: 64px;
+    text-align: center;
+}
+
+.list h2{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.list p{
+    font-size: 28px;
+    padding: 10px 30px 8px 30px;
+}
+
+.list a{
+    font-size: 28px;
+    padding: 10px 30px 8px 30px;
+    color: rgb(16, 44, 53);
+}
+
+.list li{
+    font-size: 40px;
+    color: black;
+    text-align: left;
+    list-style-type: disc;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.contact h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+.contact-form-container {
+    max-width: 40.75rem;
+    margin: 0 auto;
+    padding: 0.938rem;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px #698da1;
+  }
+.contact-form-container label {
+    line-height: 2.7em;
+    font-weight: 700;
+    color: #24252A;
+  }
+  
+.contact-form-container textarea {
+    min-height: 6.25rem;
+    font-size: 14px;
+  }
+  
+.contact-form-container .input-field {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    border: 2px outset #24252A;
+    font-size: 0.875rem;
+    outline: none;
+  }
+.input-field::placeholder {
+    padding: 0.5rem;
+    color: #24252A;
+  }
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fff;
+    border: 2px solid #24252A;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 700;
+    transition: 0.3s;
+  }
+.submit-btn:hover {
+    background-color: #24252A;
+    border: 2px solid #24252A;
+    cursor: pointer;
+  }
